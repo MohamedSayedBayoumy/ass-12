@@ -1,0 +1,194 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/index_style.css" />
+  </head>
+  <body>
+    <div class="vh-100 custom-background img-div">
+      <div
+        class="overlay bg-danger opacity-50 position-absolute vh-100 w-100 top-0 left-0"
+      ></div>
+
+      <div class="d-flex position-absolute z-3">
+        <div class="vh-100 d-none-custom bg-black">
+          <div class="d-flex justify-content-end px-4 pt-4">
+            <button
+              class="text-decoration-none bg-transparent border-0"
+              href=""
+            >
+              <h1 class="close-text text-white align-self-end cursor-pointer">
+                x
+              </h1>
+            </button>
+          </div>
+          <ul class="nav justify-content-center d-block">
+            <li class="nav-item">
+              <a
+                class="nav-link active fs-2 text-white"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-2 text-white" href="#">Duration</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-2 text-white" href="#">Details</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-2 text-white" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="vh-100 d-flex align-items-center">
+          <button class="text-decoration-none bg-transparent border-0" href="">
+            <h1 class="open-drawer text-white">☰ open</h1>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="custom-padding">
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              Accordion Item #1
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse show"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <strong>This is the first item's accordion body.</strong> It is
+              shown by default, until the collapse plugin adds the appropriate
+              classes that we use to style each element. These classes control the
+              overall appearance, as well as the showing and hiding via CSS
+              transitions. You can modify any of this with custom CSS or
+              overriding our default variables. It's also worth noting that just
+              about any HTML can go within the <code>.accordion-body</code>,
+              though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              Accordion Item #2
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is
+              hidden by default, until the collapse plugin adds the appropriate
+              classes that we use to style each element. These classes control the
+              overall appearance, as well as the showing and hiding via CSS
+              transitions. You can modify any of this with custom CSS or
+              overriding our default variables. It's also worth noting that just
+              about any HTML can go within the <code>.accordion-body</code>,
+              though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+            >
+              Accordion Item #3
+            </button>
+          </h2>
+          <div
+            id="collapseThree"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is
+              hidden by default, until the collapse plugin adds the appropriate
+              classes that we use to style each element. These classes control the
+              overall appearance, as well as the showing and hiding via CSS
+              transitions. You can modify any of this with custom CSS or
+              overriding our default variables. It's also worth noting that just
+              about any HTML can go within the <code>.accordion-body</code>,
+              though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="count">
+      <div class="count-overlay">
+          <div class="container text-center">
+              <div class="row">
+
+              <div class="col-md-3">
+                  <div class="tim">
+                      <span class=" days">-833 D</span>
+                  </div>
+              </div>
+              
+              <div class="col-md-3">
+                  <div class="tim">
+                      <span class=" hours">9 h</span>
+                  </div>
+              </div>
+
+              <div class="col-md-3">
+                  <div class="tim">
+                      <span class=" minutes">56 m</span>
+                      </div>
+              </div>
+              
+              <div class="col-md-3">
+                  <div class="tim">
+                      <span class="seconds">17 s</span>
+                      </div>
+              </div>
+          
+          </div>
+          </div>
+      </div>
+  </section>
+
+  <div class="p-4">
+  <textarea id="text-lenght" class="form-control input-lg" placeholder="Enter Message"></textarea>
+  <span id="condition">99 Characyer Reamining</span>
+  </div>
+
+
+   
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/java.js"></script>
+  </body>
+</html>
